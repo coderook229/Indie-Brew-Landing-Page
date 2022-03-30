@@ -1,0 +1,101 @@
+body {
+  margin: 35px 5px;
+  font-family: "DM Sans", sans-serif;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  margin-left: -70px;
+}
+
+.back {
+  margin-top: 10px;
+  margin-right: -74px;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  color: black;
+}
+
+h1 {
+  font-size: 2.25rem;
+  /* font-weight: 700; */
+  margin-bottom: 10px;
+  line-height: 46.87px;
+}
+
+.row {
+  display: flex;
+}
+
+.first {
+  display: flex;
+}
+p,
+span {
+  color: black;
+}
+
+.icon {
+  display: flex;
+  /* float: left; */
+}
+
+p {
+  /* text-align: ; */
+}
+
+p::before {
+  /* content: ; */
+}
+
+span {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.8rem;
+  margin-left: 30px;
+}
+
+fieldset {
+  margin-left: 20px;
+  border: none;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  width: 75%;
+  margin-bottom: 25px;
+}
+
+input[type="checkbox"] {
+  /* display: block; */
+  /* margin-left: 25px; */
+  /* display: block; */
+  /* margin-left: 33px; */
+  margin-top: 27px;
+  position: relative;
+  top: 45px;
+  right: 278px;
+}
+
+.terms {
+  color: #664efc;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #664efc;
+  text-align: center;
+  margin: auto 43px;
+  border: none;
+  padding: 20px 30px;
+}
