@@ -25,37 +25,34 @@
         <img src="/Assets/Logo.svg" alt="" />
       </div>
       <div class="back">
-        <img src="/Assets/Back Arrow.svg" alt="" />
+        <a href="/index.html"><img src="/Assets/Back Arrow.svg" alt="" /></a>
       </div>
     </header>
-    <h1>
-      Create your <br />
-      personalized feed.
-    </h1>
+    <h1>Create your personalized feed.</h1>
+
     <div class="row">
       <div class="icon">🎈</div>
-      <div>
-      <p>
-        <span>Over 20 resources.</span> With resources <br />
-        ranging from Reddit to IndieHackers, <br />
-        we've got all your needs covered.
+      <p class="feature">
+        <span>Over 20 resources.</span> With resources ranging from Reddit to
+        IndieHackers, we've got all your needs covered.
       </p>
-      </div>
     </div>
+    <div class="row">
       <div class="icon">🗞️</div>
-      <p>
-        <span> Delivered weekly.</span> Every week at exactly <br />
-        Tuesday 12:00 P.M. EST -- expect a <br />
-        value-packed digest right in your email.
-      </p>
-      <div class="icon">💡</div>
-      <p>
-        <span>Unlimited ideas.</span> With all the ideas you'll <br />
-        be reading about, what's stopping you <br />
-        from creating a sustainable startup?
+      <p class="feature">
+        <span> Delivered weekly.</span> Every week at exactly Tuesday 12:00 P.M.
+        EST -- expect a value-packed digest right in your email.
       </p>
     </div>
-    <div class="section">
+    <div class="row">
+      <div class="icon">💡</div>
+      <p class="feature">
+        <span>Unlimited ideas.</span> With all the ideas you'll be reading
+        about, what's stopping you from creating a sustainable startup?
+      </p>
+    </div>
+
+    <section class="section">
       <h2>Create your IndieBrew Account</h2>
       <form>
         <fieldset>
@@ -70,17 +67,16 @@
             id="passField"
           />
           <!-- < class="float-left"> -->
-          <input type="checkbox" id="confirmField" />
+          <input class="checkbox" type="checkbox" id="confirmField" />
           <label class="label-inline" for="confirmField"
-            >By creating an account on <br />
-            IndieBrew, you agree to the <br />
+            >By creating an account on IndieBrew, you agree to the
             <span class="terms"> Terms & Conditions</span>.</label
           >
         </fieldset>
       </form>
       <div class="create">
-        <button>Create an Account</button>
+        <a class="btn">Create an Account</a>
       </div>
-    </div>
+    </section>
   </body>
 </html>

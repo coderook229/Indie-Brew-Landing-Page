@@ -2,7 +2,6 @@ body {
   margin: 35px 5px;
   font-family: "DM Sans", sans-serif;
   overflow-x: hidden;
-
 }
 
 header {
@@ -10,7 +9,6 @@ header {
   justify-content: space-around;
   margin-bottom: 50px;
   /* Test */
-  
 }
 
 .logo {
@@ -51,14 +49,17 @@ p {
   margin-bottom: 16px;
 }
 
-.tag{
+.info {
+  width: 92%;
+}
+
+.tag {
   margin-bottom: 0;
   width: 90%;
 }
 
 /* test */
-p:nth-of-type(2){
-}
+
 
 h1,
 p,
@@ -92,14 +93,19 @@ span {
 }
 
 .social img {
-  width: 380px;
+  max-width: 93%;
+  margin: 0 auto;
   margin-top: 100px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 36px;
   margin-bottom: 10px;
+}
+
+.resources-paragraph {
+  width: 92%;
 }
 
 .resources {
@@ -117,38 +123,24 @@ h3 {
   width: 360px;
 }
 
+.phone {
+  width: 92%;
+}
+
 .bottom {
   margin-bottom: 110px;
 }
 
 footer {
-  margin-right: 10px;
-}
-
-footer p {
-  margin: 10px 20px;
+  /* margin-right: 10px; */
 }
 
 .f-container1,
 .f-container2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.box__2 {
-  margin-left: 189px;
-}
-
-.box__2 h4 {
-}
-
-.box__4 {
-  margin-left: 172px;
-}
-
-.box__4 h4 {
-  margin-left: 24px;
-}
-
-.box__4 p {
+.box-2 {
+    margin-right: 15px;
 }
